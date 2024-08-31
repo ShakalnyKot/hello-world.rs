@@ -2766,34 +2766,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "extruct"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "000f5918aa1d7cb87146ea9f12da276cdda039d0c864ecc1a507bc695a8fc3e2"
-dependencies = [
- "extruct-core",
- "extruct-macros",
-]
-
-[[package]]
-name = "extruct-core"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a726215a89903dbc646919f86fa0f66c0bee2232232ee93389e85485b7a3facd"
-
-[[package]]
-name = "extruct-macros"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "11e3958489bbba31b02bab4229155dff84b52972c87b2f2f06a52093aba58023"
-dependencies = [
- "extruct-core",
- "proc-macro2 1.0.78",
- "quote 1.0.35",
- "syn 2.0.52",
-]
-
-[[package]]
 name = "failure"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3916,7 +3888,6 @@ dependencies = [
  "dotenv",
  "dotzilla",
  "embed-resource",
- "extruct",
  "fern",
  "fluent-bundle 0.15.2",
  "french-numbers",
